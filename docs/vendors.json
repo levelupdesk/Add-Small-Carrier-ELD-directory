@@ -1,0 +1,380 @@
+[
+  {
+    "provider": "BigRoad",
+    "fmcsa_provider_name": "BigRoad Inc",
+    "product_page": "https://www.bigroad.com/eld/",
+    "status": "Verified - registered devices listed",
+    "phone": "1-888-305-8777",
+    "email": "support@bigroad.com",
+    "registered_devices": [
+      {
+        "name": "AT&T Fleet Complete",
+        "model": "FTxW-P",
+        "software": "36.3 or higher",
+        "eld_id": "FCBR20"
+      },
+      {
+        "name": "AT&T Fleet Complete ELD",
+        "model": "MGS700 (GNX6) / MGS800",
+        "software": "36.3 or higher",
+        "eld_id": "FCBR20"
+      },
+      {
+        "name": "AT&T Fleet Complete ELD",
+        "model": "FT1 / FT2 / FT3",
+        "software": "36.3 or higher",
+        "eld_id": "FCBR20"
+      },
+      {
+        "name": "BigRoad ELD",
+        "model": "DL-100 / DL-200",
+        "software": "36.3 or higher",
+        "eld_id": "FCBR20"
+      },
+      {
+        "name": "BigRoad ELD",
+        "model": "MGS700 (GNX6) / MGS800",
+        "software": "36.3 or higher",
+        "eld_id": "FCBR20"
+      },
+      {
+        "name": "BigRoad ELD",
+        "model": "FT1 / FT2 / FT3",
+        "software": "36.3 or higher",
+        "eld_id": "FCBR20"
+      },
+      {
+        "name": "BigRoad ELD",
+        "model": "FTxW-P",
+        "software": "36.3 or higher",
+        "eld_id": "FCBR20"
+      }
+    ],
+    "revoked_devices": [],
+    "source": "https://eld.fmcsa.dot.gov/List",
+    "revoked_source": "https://eld.fmcsa.dot.gov/List/GetListOfELDs?listType=Revoked",
+    "checked": "2026-10-21"
+  },
+  {
+    "provider": "Blue Ink Technology (BIT)",
+    "fmcsa_provider_name": "Blue Ink Tech",
+    "product_page": "https://blueinktech.com/eld.php",
+    "status": "Verified - registered devices listed",
+    "phone": "(304) 381-1512",
+    "email": "support@blueinktech.com",
+    "registered_devices": [
+      {
+        "name": "BIT ELD Dashcam",
+        "model": "BIT18000",
+        "software": "7.9.6 or higher",
+        "eld_id": "B1TCAM"
+      },
+      {
+        "name": "BIT ELD for Android",
+        "model": "BIT17001",
+        "software": "7.9.6 or higher",
+        "eld_id": "BITELD"
+      },
+      {
+        "name": "BIT ELD for Apple",
+        "model": "BIT17001",
+        "software": "7.9.6 or higher",
+        "eld_id": "BITELD"
+      },
+      {
+        "name": "BIT ELD Gen2",
+        "model": "BIT17003",
+        "software": "7.9.6 or higher",
+        "eld_id": "BITEG2"
+      },
+      {
+        "name": "BIT OBD ELD for Android",
+        "model": "BIT17002",
+        "software": "7.9.6 or higher",
+        "eld_id": "BITELD"
+      },
+      {
+        "name": "BIT OBD ELD for Apple",
+        "model": "BIT17002",
+        "software": "7.9.6 or higher",
+        "eld_id": "BITELD"
+      },
+      {
+        "name": "BIT OBD-II ELD Gen2",
+        "model": "BIT17004",
+        "software": "7.9.6 or higher",
+        "eld_id": "BITOG2"
+      }
+    ],
+    "revoked_devices": [],
+    "source": "https://eld.fmcsa.dot.gov/List",
+    "revoked_source": "https://eld.fmcsa.dot.gov/List/GetListOfELDs?listType=Revoked",
+    "checked": "2026-10-21"
+  },
+  {
+    "provider": "Geotab",
+    "fmcsa_provider_name": "Geotab Inc.",
+    "product_page": "https://www.geotab.com/eld/",
+    "status": "Verified - registered devices listed",
+    "phone": "1 877-436-8221",
+    "email": "salesteam@geotab.com",
+    "registered_devices": [
+      {
+        "name": "Geotab Drive Cloud ELD",
+        "model": "GO6, GO7, GO8, GO9, GO9B, GO10, PEP-GO7. PEP-GO8, or FL7 (Spireon), FL8 (Spireon) or RI7/8 (by BSM), SH9",
+        "software": "11.119+",
+        "eld_id": "GEOTAB"
+      },
+      {
+        "name": "Geotab Drive for Ford Trucks",
+        "model": "Ford PassConnect",
+        "software": "11.119+",
+        "eld_id": "FORD01"
+      },
+      {
+        "name": "Geotab Drive for Freightliner Trucks",
+        "model": "CTP2, CTP3",
+        "software": "11.119+",
+        "eld_id": "DAIM01"
+      },
+      {
+        "name": "Geotab Drive for International Trucks",
+        "model": "N2",
+        "software": "11.119+",
+        "eld_id": "NVSRN2"
+      },
+      {
+        "name": "Geotab Drive for Mack Trucks",
+        "model": "TGW 2.1, TGW3",
+        "software": "11.119+",
+        "eld_id": "MACK01"
+      },
+      {
+        "name": "Geotab Drive for Volvo Trucks",
+        "model": "TGW 2.1, TGW3",
+        "software": "11.119+",
+        "eld_id": "VOLVO1"
+      }
+    ],
+    "revoked_devices": [],
+    "source": "https://eld.fmcsa.dot.gov/List",
+    "revoked_source": "https://eld.fmcsa.dot.gov/List/GetListOfELDs?listType=Revoked",
+    "checked": "2026-10-21"
+  },
+  {
+    "provider": "HOS247",
+    "fmcsa_provider_name": "HOS247 LLC",
+    "product_page": "https://www.hos247.com/eld/",
+    "status": "Verified - registered devices listed",
+    "phone": "415-839-9977",
+    "email": "hello@hos247.com",
+    "registered_devices": [
+      {
+        "name": "\"All-In-One\" ELD by HOS247",
+        "model": "FLT4",
+        "software": "4.1 and up",
+        "eld_id": "247HOS"
+      },
+      {
+        "name": "!A1 ELD by HOS247",
+        "model": "A1",
+        "software": "2.2 and up",
+        "eld_id": "1A1ELD"
+      },
+      {
+        "name": "#1 ELD by HOS247",
+        "model": "FLT3",
+        "software": "2.300 and up",
+        "eld_id": "247ELD"
+      },
+      {
+        "name": "HOS247 ELD",
+        "model": "FLT Tele",
+        "software": "2.5 or higher",
+        "eld_id": "HOS247"
+      },
+      {
+        "name": "HOS247 ELD",
+        "model": "FLT2",
+        "software": "2.2 and up",
+        "eld_id": "ELD247"
+      }
+    ],
+    "revoked_devices": [
+      {
+        "name": "PROPRO ELD",
+        "model": "PROPRO",
+        "eld_id": "PROPRO",
+        "status": "Self Revoked",
+        "date": "11-15-2022"
+      }
+    ],
+    "source": "https://eld.fmcsa.dot.gov/List",
+    "revoked_source": "https://eld.fmcsa.dot.gov/List/GetListOfELDs?listType=Revoked",
+    "checked": "2026-10-21"
+  },
+  {
+    "provider": "J. J. Keller",
+    "fmcsa_provider_name": "J. J. Keller & Associates, Inc.",
+    "product_page": "https://www.jjkeller.com/shop/en/eld",
+    "status": "Verified - registered devices listed",
+    "phone": "800-327-1342",
+    "email": "support@jjkeller.com",
+    "registered_devices": [
+      {
+        "name": "Geotab GO Device - J. J. Keller Android BYOD and Compliance Tablet",
+        "model": "G7A",
+        "software": "3.8500.304 or higher",
+        "eld_id": "G7A003"
+      },
+      {
+        "name": "J. J. Keller ELD - Android BYOD 2.0 and Compliance Tablet",
+        "model": "20A",
+        "software": "3.8500.304 or higher",
+        "eld_id": "20A003"
+      },
+      {
+        "name": "J. J. Keller ELD – Android BYOD 2.5 and Compliance Tablet",
+        "model": "25A",
+        "software": "3.8500.304 or higher",
+        "eld_id": "25A003"
+      },
+      {
+        "name": "J. J. Keller ELD - Android BYOD and Compliance Tablet Gen 3.0",
+        "model": "30A",
+        "software": "3.8785.324 or higher",
+        "eld_id": "30A003"
+      },
+      {
+        "name": "J. J. Keller ELD - iOS 2.0",
+        "model": "20I",
+        "software": "3.8500.304 or higher",
+        "eld_id": "20I003"
+      },
+      {
+        "name": "J. J. Keller ELD - iOS 2.5",
+        "model": "25I",
+        "software": "3.8500.304 or higher",
+        "eld_id": "25I003"
+      },
+      {
+        "name": "J. J. Keller ELD - iOS 3.0",
+        "model": "30I",
+        "software": "3.8979.324 or higher",
+        "eld_id": "30I003"
+      }
+    ],
+    "revoked_devices": [
+      {
+        "name": "Geotab GO7 - J. J. Keller Android Tablet",
+        "model": "G7C",
+        "eld_id": "G7C003",
+        "status": "Self Revoked",
+        "date": ""
+      },
+      {
+        "name": "J. J. Keller ELD – Android Compliance Tablet 2.5",
+        "model": "25C",
+        "eld_id": "25C003",
+        "status": "Self Revoked",
+        "date": ""
+      },
+      {
+        "name": "J. J. Keller ELD - Android Tablet 2.0",
+        "model": "20C",
+        "eld_id": "20C003",
+        "status": "Self Revoked",
+        "date": ""
+      }
+    ],
+    "source": "https://eld.fmcsa.dot.gov/List",
+    "revoked_source": "https://eld.fmcsa.dot.gov/List/GetListOfELDs?listType=Revoked",
+    "checked": "2026-10-21"
+  },
+  {
+    "provider": "Motive",
+    "fmcsa_provider_name": "Motive Technologies, Inc.",
+    "product_page": "https://gomotive.com/eld/",
+    "status": "Verified - registered devices listed",
+    "phone": "855-434-3564",
+    "email": "sales@gomotive.com",
+    "registered_devices": [
+      {
+        "name": "Motive ELD",
+        "model": "LBB-1 and higher",
+        "software": "41.0 and higher",
+        "eld_id": "MOTIVE"
+      }
+    ],
+    "revoked_devices": [],
+    "source": "https://eld.fmcsa.dot.gov/List",
+    "revoked_source": "https://eld.fmcsa.dot.gov/List/GetListOfELDs?listType=Revoked",
+    "checked": "2026-10-21"
+  },
+  {
+    "provider": "Samsara",
+    "fmcsa_provider_name": "Samsara Inc.",
+    "product_page": "https://www.samsara.com/products/vehicle-telematics/eld-compliance",
+    "status": "Verified - registered devices listed",
+    "phone": "(415) 985-2400",
+    "email": "eld@samsara.com",
+    "registered_devices": [
+      {
+        "name": "Samsara ELD",
+        "model": "VG",
+        "software": "2430.101+",
+        "eld_id": "SAMELD"
+      },
+      {
+        "name": "Samsara ELD for International Trucks",
+        "model": "N2",
+        "software": "46.13.6460+",
+        "eld_id": "SAMNI1"
+      }
+    ],
+    "revoked_devices": [],
+    "source": "https://eld.fmcsa.dot.gov/List",
+    "revoked_source": "https://eld.fmcsa.dot.gov/List/GetListOfELDs?listType=Revoked",
+    "checked": "2026-10-21"
+  },
+  {
+    "provider": "TruckX",
+    "fmcsa_provider_name": "TruckX Inc",
+    "product_page": "https://truckx.com/eld/",
+    "status": "Verified - registered devices listed",
+    "phone": "650-600-0008",
+    "email": "contact@truckx.com",
+    "registered_devices": [
+      {
+        "name": "TruckX ELD 4.0",
+        "model": "TX004",
+        "software": "2.3.0+",
+        "eld_id": "TXELD4"
+      },
+      {
+        "name": "TruckX ELD One",
+        "model": "TX300",
+        "software": "2.2.0+",
+        "eld_id": "TRX300"
+      },
+      {
+        "name": "TruckX ELD Pro",
+        "model": "WELD",
+        "software": "2.1.17+",
+        "eld_id": "TRXW20"
+      }
+    ],
+    "revoked_devices": [
+      {
+        "name": "TruckX-ELD n/k/a ELD 0.2",
+        "model": "XELD",
+        "eld_id": "TRX927",
+        "status": "Revoked",
+        "date": "12-01-2023"
+      }
+    ],
+    "source": "https://eld.fmcsa.dot.gov/List",
+    "revoked_source": "https://eld.fmcsa.dot.gov/List/GetListOfELDs?listType=Revoked",
+    "checked": "2026-10-21"
+  }
+]

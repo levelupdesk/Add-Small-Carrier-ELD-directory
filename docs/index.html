@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Small-Carrier ELD Directory</title>
+<style>body{font-family:system-ui,sans-serif;max-width:960px;margin:2rem auto;padding:0 1rem;color:#1a1a1a}
+.note{background:#fff7e0;border:1px solid #e8c766;padding:.75rem 1rem;border-radius:6px;font-size:.9rem}
+input,select{padding:.5rem;font-size:1rem;margin:.25rem .5rem .25rem 0}.card{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:1rem 0}
+.ok{color:#0a6b2d;font-weight:600}.bad{color:#a11}table{border-collapse:collapse;width:100%;font-size:.88rem}td,th{border-bottom:1px solid #eee;padding:.3rem;text-align:left}
+details{margin-top:.5rem}</style></head><body>
+<h1>Small-Carrier ELD Directory</h1>
+<p>ELD providers for owner-operators and fleets of roughly 1–20 trucks, checked against the official FMCSA registered and revoked ELD lists.</p>
+<p class="note"><strong>Disclaimer:</strong> Not legal or compliance advice. FMCSA does not certify or endorse ELDs; registration is self-certified and device-specific and can change. Always confirm the exact device on the <a href="https://eld.fmcsa.dot.gov/List">FMCSA Registered ELD list</a> and the <a href="https://eld.fmcsa.dot.gov/List/GetListOfELDs?listType=Revoked">revoked list</a> before buying. No pricing is listed — ask providers for current written terms.</p>
+<input id="q" placeholder="Search provider, device, model, ELD ID" size="40"><select id="f"><option value="">All statuses</option><option value="Verified">Verified</option><option value="Not found">Not found</option></select>
+<label><input type="checkbox" id="r"> Only providers with revoked devices</label>
+<div id="list">Loading…</div>
+<p><small>Data: <a href="vendors.json">vendors.json</a>. Contribute at <a href="https://github.com/levelupdesk/Add-Small-Carrier-ELD-directory">GitHub</a>.</small></p>
+<script>
+const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));let D=[];
+function draw(){const q=document.getElementById('q').value.toLowerCase(),f=document.getElementById('f').value,r=document.getElementById('r').checked;
+document.getElementById('list').innerHTML=D.filter(v=>(!f||v.status.startsWith(f))&&(!r||v.revoked_devices.length)&&(!q||JSON.stringify(v).toLowerCase().includes(q))).map(v=>`<div class=card><h2>${e(v.provider)}</h2>
+<p class="${v.status.startsWith('Verified')?'ok':'bad'}">${e(v.status)} — checked ${e(v.checked)} (<a href="${e(v.source)}">FMCSA source</a>)</p>
+<p>FMCSA provider name: ${e(v.fmcsa_provider_name)} · ${e(v.phone)} · ${e(v.email)} · <a href="${e(v.product_page)}">Product page</a></p>
+<details><summary>${v.registered_devices.length} registered device(s)</summary><table><tr><th>Device</th><th>Model</th><th>Software</th><th>ELD ID</th></tr>${v.registered_devices.map(d=>`<tr><td>${e(d.name)}</td><td>${e(d.model)}</td><td>${e(d.software)}</td><td>${e(d.eld_id)}</td></tr>`).join('')}</table></details>
+${v.revoked_devices.length?`<details><summary class=bad>${v.revoked_devices.length} revoked device(s) — do not use</summary><table><tr><th>Device</th><th>Model</th><th>ELD ID</th><th>Status</th><th>Date</th></tr>${v.revoked_devices.map(d=>`<tr><td>${e(d.name)}</td><td>${e(d.model)}</td><td>${e(d.eld_id)}</td><td>${e(d.status)}</td><td>${e(d.date)}</td></tr>`).join('')}</table></details>`:''}</div>`).join('')||'<p>No matches.</p>'}
+fetch('vendors.json').then(r=>r.json()).then(d=>{D=d;draw()});['q','f','r'].forEach(i=>document.getElementById(i).addEventListener('input',draw));
+</script></body></html>
