@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
